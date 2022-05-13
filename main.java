@@ -21,3 +21,19 @@ import android.annotation.SystemApi;
 import android.annotation.TestApi;
 import android.annotation.UiContext;
 import android.app.VoiceInteractor.Request;
+
+
+/**
+ * 2022-5-13 11:49:28 diff
+ */
+private static final class ManagedCursor {
+    ManagedCursor(Cursor cursor) {
+        mCursor = cursor;
+        mReleased = false;
+        mUpdated = false;
+    }
+
+    private final Cursor mCursor;
+    private boolean mReleased;
+    private boolean mUpdated;
+}
