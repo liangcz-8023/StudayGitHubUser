@@ -37,3 +37,14 @@ private static final class ManagedCursor {
     private boolean mReleased;
     private boolean mUpdated;
 }
+
+/**
+ * 2022-5-13 11:54:31 add
+ */
+private AutofillManager getAutofillManager() {
+        if (mAutofillManager == null) {
+            mAutofillManager = getSystemService(AutofillManager.class);
+        }
+
+        return mAutofillManager;
+    }
