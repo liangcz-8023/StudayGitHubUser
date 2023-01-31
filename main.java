@@ -56,3 +56,11 @@ private AutofillManager getAutofillManager() {
 void test(){
     System.out.println("test");
 }
+
+/**
+ * 2023-1-31 09:38:02 add
+ */
+
+int sun(int a, int b){
+    return a + b ;
+}
