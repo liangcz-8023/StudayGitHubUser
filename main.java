@@ -48,3 +48,11 @@ private AutofillManager getAutofillManager() {
 
         return mAutofillManager;
     }
+
+/**
+ * 2023-1-31 09:35:25 add
+ */
+
+void test(){
+    System.out.println("test");
+}
