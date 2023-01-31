@@ -5,7 +5,7 @@ import static android.app.WindowConfiguration.WINDOWING_MODE_PINNED;
 import static android.app.WindowConfiguration.inMultiWindowMode;
 import static android.os.Process.myUid;
 
-import static java.lang.Character.MIN_VALUE;
+
 
 import android.annotation.CallSuper;
 import android.annotation.DrawableRes;
